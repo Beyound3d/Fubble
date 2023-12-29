@@ -8,12 +8,14 @@
   * {
     @apply box-border list-none p-0 m-0 scroll-smooth;
   }
+  .font-inter {
+    /* styles for font-inter class */
+  }
   .bg-dark-1 {
-    background-color: #333; /* Replace with your desired color */
+    background-color: #1A1A1A; /* Replace with your desired color */
   }
   body {
     @apply bg-dark-1 text-white min-h-screen font-inter;
-    font-family: 'Inter', sans-serif;
   }
 }
 
